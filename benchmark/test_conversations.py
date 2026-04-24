@@ -34,7 +34,7 @@ CASES: List[ConversationCase] = [
         turns=[
             "I'm allergic to cow's milk.",
             "I'm actually allergic to soy milk.",
-            "What are you allergic to?",
+            "What am I allergic to?",
         ],
         expected_substring="soy",
         notes="Must prioritize the corrected fact.",
